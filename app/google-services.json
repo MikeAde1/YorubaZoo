@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "848106330460",
+    "firebase_url": "https://yoruba-zoo.firebaseio.com",
+    "project_id": "yoruba-zoo",
+    "storage_bucket": "yoruba-zoo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848106330460:android:2fa1fe11b8c3d4c6",
+        "android_client_info": {
+          "package_name": "example.yorubazoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848106330460-31iti9qv12ink6ppkt1db6es25973531.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.yorubazoo",
+            "certificate_hash": "01dc56228718c8d657dd0df09750991f6a08f8ca"
+          }
+        },
+        {
+          "client_id": "848106330460-2ilu501a5bii0skpf07hmlrb77saqtqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_W8TelY11hSqPNB4GoQE2WIXhDql4gAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848106330460-2ilu501a5bii0skpf07hmlrb77saqtqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

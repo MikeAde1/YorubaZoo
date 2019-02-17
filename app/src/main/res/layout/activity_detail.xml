@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp">
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/animal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alligator"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#c53f1104"
+                android:layout_gravity="center_vertical" />
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/action_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_volume_up_black_24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="127dp"
+                android:layout_marginStart="127dp" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:contentDescription="GIF"
+                android:background="#000000"
+                android:layout_marginBottom="10dp"/>
+
+            <ProgressBar
+                android:id="@+id/pg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminate="true" />
+        </RelativeLayout>
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:contentPadding="4dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/text"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yoruba Translation:"
+                    android:layout_marginRight="4dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/translation"
+                    android:textSize="20sp"
+                    android:text="Elegungun"
+                    android:layout_toRightOf="@id/translation"
+                    android:layout_toEndOf="@id/text"
+                    android:textColor="@color/colorPrimary"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <View
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:layout_marginRight="20dp"
+            android:textSize="14dp"
+            android:textColor="#c53f1104"
+            android:text="A large reptile that lives near water, has thich scaly skin, a long tail and a shorter and broader snout than a crocodile. Kingdom: Animalia, Phylum: Chordata, Branch: Crocordylomorpha, Order: Crocodordyla, Family: Alligatoridae, Subfamily: Alligatoridaw, Genus: Alligator."/>
+    </LinearLayout>
+</ScrollView>
+<!--
+<pl.droidsonroids.gif.GifImageView
+android:id="@+id/img"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="#000000"
+                android:layout_marginBottom="10dp"/>
+-->
